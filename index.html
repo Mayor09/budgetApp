@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ <meta name="theme-color" content="rgb(54, 110, 110)">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name= "viewport"content= "width=device-width ,initial-scale=1.0">
+<meta name="description" content="Budget App for Better decision making designed by Ebuka Chris">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="BudgetApp.css">
+<link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+
+<body>
+  <div class="container">
+  <div class="header">
+    <a href="https://www.twitter.com/ebukachris9"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.github.com/mayor09"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/ebukachris"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/ebuka_chris"><i class="fab fa-instagram"></i></a>
+
+ <p>Made with &nbsp;<i class="fas fa-heart"style="color:rgb(209, 57, 57);"></i>&nbsp; by <a href="https//echris.netlify.app">Echris IT solutions</a></p>
+    <div class="budget">
+            <!-- budget feedback -->
+            <h2>BUDGET APP</h2>
+            <!-- budget form -->
+            <form id="budget-form" class=" budget-form">
+             <h3 class="text-capitalize">Please enter your budget</h3>
+             <div class="form-group">
+              <input type="number"  id="budget-input" placeholder="e.g 500,000">
+             </div>
+             <!-- submit button -->
+             <button type="submit" id="budget-submit">Calculate</button>
+            </form>
+        
+        
+            
+            <!-- expense form -->
+            <form id="expense-form" class=" expense-form" autocomplete="off">
+             <h3 class="text-capitalize">Please enter your expense</h3>
+             
+             <div class="form-group">
+              <input type="text"  id="expense-input" placeholder="e.g cloth,subscription,House rent etc">
+             </div>
+             <h3 class="text-capitalize">Please enter expense amount</h3>
+             <div class="form-group">
+              <input type="number"  id="amount-input" placeholder="e.g 20,000">
+             </div>
+             <!-- submit button -->
+             <button type="submit" class="btn expense-submit" id="expense-submit">Add expense</button>
+            </form>
+            
+            <button id="doPrint">Print</button>
+        </div>
+           
+        <div class="hidden"></div>
+          
+           <div class="overview" id="printDiv">
+            <!-- app info -->
+         <div class="list">
+           <h3>Budget</h3>
+           <i class="fas fa-money-bill-alt fa-3x"></i>
+           <h4 id="budget"><span>$ </span><span id="budget-amount">0</span></h4>
+          </div>
+          <div class="list">
+           <h3>Expenses</h3>
+           <i class="fas fa-credit-card fa-3x"></i>
+           <h4><span>$ </span><span id="expense-amount">0</span></h4>
+          </div>
+          
+          <div class="list">
+           <h3>Balance</h3>
+           <span class="balance-icon"><i class="fas fa-dollar-sign fa-3x"></i></span>
+           <h4 id="balance"> <span>$ </span><span id="balance-amount">0</span></h4>
+      </div>
+      <label></label>
+      <div class="feed">
+       <h5 class="list-item1">EXPENSE VALUE</h5>
+       <h5 class="list-item">&nbsp;&nbsp;EXPENSE TITLE</h5>
+        
+       <div class="expense-list"></div>
+       
+     
+     
+         <!-- expense list -->
+     
+     <div class="expense-list" id="expense-list"></div>
+ 
+     
+       
+        
+            
+          </div>
+          </div>
+         
+         <!-- expense feedback -->
+         
+          </div>
+
+            
+           
+             
+              
+          
+          
+          
+          
+        
+
+             <script src="BudgetApp.js"></script>
+             </body>
+             </html>
