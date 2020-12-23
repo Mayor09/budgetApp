@@ -85,8 +85,8 @@ class UI {
       div.classList.add('expense');
       div.innerHTML = `<div class="expense-item ">
       <h4 class=" list-item">- ${expense.title}</h4>
-      <h4 class="list-item1">$${expense.amount}</h4>
-      <div class="expense-icons list-item">
+      <h4 class="list-item1">&#8358;${expense.amount}</h4>
+      <div class="expense-icons">
        <a href="#" class="edit-icon mx-2" data-id="${expense.id}">
         <span>edit</span>
        </a>|
@@ -94,7 +94,7 @@ class UI {
         <span>delete</span>
        </a>
       </div>
-     </div`;
+     </div>`;
      this.expenseList.appendChild(div);
     }
   
