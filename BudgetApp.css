@@ -42,7 +42,6 @@ body{
 		background-color: rgb(54, 110, 110);
 		color: #fff;
 		padding: 5px 15px;
-		
 		cursor: pointer;
 		}
 
@@ -92,6 +91,7 @@ body{
 		margin-top: 8px;
 		font-weight: normal;
 	}
+	
 	.overview{
 		float: left;
 	}
@@ -113,7 +113,7 @@ body{
 		float: left;
 		width: 100%;
 		text-align: center;
-		margin-top: 8px;
+		margin-top: 13px;
 	}
 	label{top: 10px; margin-left: 4px; position: relative; color: beige;}
 
@@ -122,22 +122,33 @@ body{
 	.showBlack{background-color: #000;}
 .list-item1{
   background-color: rgb(54, 110, 110);
-  width: 200px;
+  width: 190px;
   float: left;
   margin-top: 5px;
 }
 
 .list-item{
-	
-  width: 200px;
+  background-color: rgb(54, 110, 110);
+  width: 190px;
   float: left;
-  margin-top:4px;
+  margin-top:5px;
 }
-.fa-dollar-sign, .fa-credit-card, .fa-money-bill-alt{
+.expense-icons{
+	background-color: rgb(54, 110, 110);
+	width: 190px;
+	float: left;
+	margin-top:5px;
+  }
+  
+aside, .fa-credit-card, .fa-money-bill-alt{
 	margin-top: 15px;
 }
 
-
+#font{
+	font-size: 2rem;
+	color: rgb(228, 242, 245);
+	font-weight: bold;
+}
 
 
 .fa-twitter{
@@ -178,7 +189,7 @@ body{
 	h3{margin-left: -4px; color: rgba(0,0,0,0.8);}
 	.text-capitalize{margin-left: 4px; font-size: 18px; color: rgba(0,0,0,0.8);}
 	.overview{margin-top: 0; width: 100%;}
-	.overview .fas{font-size: 25px;}
+	.overview .fas,#font{font-size: 25px;}
 	.delete-icon, .edit-icon{font-size: 15px;}
-	.list-item1,.list-item{width: 100%; color: rgba(0,0,0,0.8);}
+	.list-item1,.list-item, .expense-icons{width: 33%; color: rgba(0,0,0,0.8);}
 }
