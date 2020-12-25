@@ -60,7 +60,7 @@ body{
 	.overview{
 	background-color:rgb(54, 110, 110);
 	float: left;
-	width: 600px;
+	width: 580px;
     margin-top: 10px;
     box-shadow: #fff;
     height: 600px;
@@ -102,7 +102,7 @@ body{
 	}
 	.list{
 		background-color: transparent;
-		width: 30%;
+		width: 31%;
 		float: left;
 		margin-left: 10px;
 		height: 160px;
@@ -122,25 +122,30 @@ body{
 	.showBlack{background-color: #000;}
 .list-item1{
   background-color: rgb(54, 110, 110);
-  width: 190px;
+  width: 185px;
   float: left;
   margin-top: 5px;
-  Overflow:scroll;
+  height: 40px;
+  overflow: hidden;
+  
 }
 
 .list-item{
   background-color: rgb(54, 110, 110);
-  width: 190px;
+  width: 185px;
   float: left;
   margin-top:5px;
-  Overflow:scroll;
+  height: 40px;
+  overflow: hidden;
+  
 }
 .expense-icons{
 	background-color: rgb(54, 110, 110);
-	width: 190px;
+	width: 185px;
 	float: left;
 	margin-top:5px;
-        Overflow: scroll;
+	height: 40px;
+	  
   }
   
 aside, .fa-credit-card, .fa-money-bill-alt{
@@ -185,7 +190,7 @@ aside, .fa-credit-card, .fa-money-bill-alt{
 	.header{height:70px; color: #000; line-height: 32px; color: beige;}
 	.container{background-color: transparent; left: 0; top: 0; transform: translate(0,0); width: 100%;}
 	h2{margin-left: 3px; font-weight: normal; color: rgba(0,0,0,0.8); margin-top: 13px;}
-	.budget{background-color: tomato; margin-left: 0; height: 400px; margin-top: 0; width: 100%;}
+	.budget{background-color: tomato; margin-left: 0; height: 433px; margin-top: 0; width: 100%;}
 	label{top: -12px; margin-left: 4px; position: relative; color: beige;}
 	input{width: 90%;margin-left: 0px;}
 	button[type="submit"]{width: 70%; margin-left: 20px;}
@@ -194,5 +199,6 @@ aside, .fa-credit-card, .fa-money-bill-alt{
 	.overview{margin-top: 0; width: 100%;}
 	.overview .fas,#font{font-size: 25px;}
 	.delete-icon, .edit-icon{font-size: 15px;}
+	.list{width: 30%;}
 	.list-item1,.list-item, .expense-icons{width: 33%; color: rgba(0,0,0,0.8);}
 }
