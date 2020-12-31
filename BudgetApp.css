@@ -64,7 +64,7 @@ body{
     margin-top: 10px;
     box-shadow: #fff;
     height: 600px;
-	overflow: scroll;
+	
 	}
 
 	::-webkit-scrollbar{
